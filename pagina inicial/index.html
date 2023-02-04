@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>site simples com html e css</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="index.html"> Caio </a>
+
+        </div>
+
+        <ul class="menu-desktop">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">sobre</a></li>
+            <li><a href="#">preços</a></li>
+            <li><a href="#">serviços</a></li>
+            <li><a href="#">contato</a></li>
+
+            
+         </ul>
+            <ul class="menu-mobile">
+            <div class="icon-close">
+             <i class="fa fa-bars" aria-hidden="true"></i>   
+  
+            </div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">sobre</a></li>
+            <li><a href="#">preços</a></li>
+            <li><a href="#">serviços</a></li>
+            <li><a href="#">contato</a></li>
+         </ul>
+         <div class="menu-icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+
+
+         </div>
+    </nav>
+    <section class="banner">
+        <div class="texto">
+            <h1 class="titulo">criar um site incrivel somente </h1>
+            <h2 class="sub_titulo">usando HTML e CSS puro</h2>
+            <div class="botoes">
+                <button class="n-overlay">saiba mais </button>
+                <button class="overlay">Inscrever</button>
+
+            </div>
+
+        </div>
+
+    </section>
+    <script>
+        var menuIcon = document.querySelector('.menu-icon');
+        var menuMobile = document.querySelector('.menu-mobile');
+        variconClose = document.querySelector('menu-mobile.icon-close');
+
+     menuIcon.addEventListener('click',function(){
+        menuMobile.classList.add('ativo')
+     });
+     iconClose.addEventListener('click',function(){
+        menuMobile.classList.remove('ativo')
+     });
+
+    </script>
+</body>
+</html> 
+           
+ 
+       
+           
